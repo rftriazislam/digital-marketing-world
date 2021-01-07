@@ -19,6 +19,12 @@ class From extends React.Component {
          <h1 >React Form </h1>
             <input type = "text" value = {this.state.data} 
                onChange = {this.updateState} style={{color: "red",width:"200px"}} />
+                <input type = "text" value = {this.state.data} 
+               onChange = {this.updateState} style={{color: "red",width:"200px"}} />
+                <input type = "text" value = {this.state.data} 
+               onChange = {this.updateState} style={{color: "red",width:"200px"}} />
+                <input type = "text" value = {this.state.data} 
+               onChange = {this.updateState} style={{color: "red",width:"200px"}} />
             <h4>{this.state.data}</h4>
          </div>
             
